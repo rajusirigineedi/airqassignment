@@ -1,0 +1,29 @@
+
+      <div style="padding: 10%;">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Email</th>
+                <th scope="col">Api Key</th>
+                <th scope="col">Usage</th>
+                <th scope="col">Limit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each data}}
+              <tr>
+                <th scope="row">{{this.email}}</th>
+                <td>{{this.apiKey}}</td>
+                <td>{{this.usage}}</td>
+                <td>{{this.limit}}</td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px;">
+            <a href="/viewall?page={{prev}}" class="btn btn-primary">Previous</a>
+            <div style="width: 10px;"></div>
+            <a href="/viewall?page={{next}}" class="btn btn-primary">Next</a>
+          </div>
+          
+      </div>
