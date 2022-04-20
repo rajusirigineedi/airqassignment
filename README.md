@@ -2,6 +2,8 @@
 just an assignment
 To run it/ test it in your local system go to this pull this Docker image ' <b>vivobookdocker/airq</b> '
 
+command to pull the image : docker pull vivobookdocker/airq:latest
+
 Endpoints to test it in postman.
 >GET: /getairq 
  - should pass the key you get as x-api-key header
