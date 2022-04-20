@@ -1,6 +1,7 @@
 # airq - assignment
-just an assignment
-To run it/ test it in your local system
+An assignment
+
+To run it/ test it in your local system you need docker.
 
 in command prompt do : <b>docker-compose up --build</b>
 
@@ -14,5 +15,5 @@ Endpoints to test it in postman.
 
 Example:
 If you run it via docker
- - Homepage will be <b>http://localhost:8000/</b>
+ - Homepage will be <b>http://localhost:8000/</b> ( in browser )
  - Endpoint to test via postman will be <b>http://localhost:8000/getairq</b>
