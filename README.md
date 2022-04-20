@@ -1,8 +1,8 @@
 # airq - assignment
 just an assignment
-To run it/ test it in your local system go to this pull this Docker image ' <b>vivobookdocker/airq</b> '
+To run it/ test it in your local system
 
-command to pull the image : docker pull vivobookdocker/airq:latest
+in command prompt do : <b>docker-compose up --build</b>
 
 Endpoints to test it in postman.
 >GET: /getairq 
